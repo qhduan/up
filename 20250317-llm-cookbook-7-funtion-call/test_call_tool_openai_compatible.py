@@ -2,10 +2,8 @@ import requests
 import json
 
 response = requests.post(
-    # 'http://192.168.71.6:8101/v1/chat/completions',
     'http://localhost:11434/v1/chat/completions',
     json={
-        # "model": "QwQ-32B",
         "model": 'qwq:32b-q8_0',
         "messages": [
             {
