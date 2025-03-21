@@ -3,4 +3,4 @@
 .ipynb_checkpoints
 venv
 ~*
-.md
+*.md
